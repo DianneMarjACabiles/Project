@@ -1,0 +1,103 @@
+body{
+  padding: 25px;
+  background-image: url("bg.jpg");
+  color: black; 
+}
+
+
+
+.title { 
+text-align: center; 
+color: black; 
+font-family: Franklin Gothic;
+text-transform: uppercase;
+
+
+}
+
+img{
+  float: left;
+  margin-left: auto;
+  width: 50%;
+
+}
+
+a{
+color: white;
+text-decoration: none;
+font-family: Arial;
+}
+	
+#what { 
+color: black; 
+}
+
+#why { 
+color: black; 
+}
+
+#howsoc { 
+color: black; 
+}
+
+#tradgen { 
+color: black; 
+}
+
+#whys { 
+color: black; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.smalldesc{ 
+  text-align: center;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: 300;
+  margin: auto;
+  width: 50%;
+  background-color: #E3F4FF;
+}
+
+.smalldesc2{ 
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  
+  margin: auto;
+  width: 50%;
+  background-color: #FFE3E9; 
+  
+  position: relative;
+  top: 16px;
+  
+}
+
+li {
+  float: right;
+
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #3D6A9F;
+}
+
+
+ul{
+  	font-family: Arial;
+	font-weight: 300;
+	background-color: #3D6A9F;
+	
+}
+	
+  
+  
