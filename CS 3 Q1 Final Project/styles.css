@@ -5,12 +5,26 @@ body{
 }
 
 
-
 .title { 
 text-align: center; 
 color: black; 
 font-family: Franklin Gothic;
 text-transform: uppercase;
+
+}
+
+a:hover {
+  color:#FA72A8;
+}
+
+
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 
 
 }
@@ -98,6 +112,8 @@ ul{
 	background-color: #3D6A9F;
 	
 }
+
+
 	
   
   
