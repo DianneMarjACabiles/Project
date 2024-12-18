@@ -1,0 +1,71 @@
+body{
+    padding: 25px;
+    background-color:white;
+    color: black;
+    
+  }
+  
+  .title { 
+  text-align: left;  
+  font-family: Franklin Gothic;
+  text-transform: uppercase;
+  color: #3D6A9F;
+  }
+  
+  
+  
+  .smalldesc{ 
+    text-align: left;
+    font-family: Arial;
+    font-size: 21px;
+    background-color: #E3F4FF;
+    
+  }
+  
+  .desc{ 
+    text-align: left;
+    font-family: Arial;
+    font-weight: 300;
+  }
+  
+  
+  
+  li {
+    text-align: left;
+    font-family: Arial;
+    font-style: bold;
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  [class*="2024"] {
+    font-style: italic;
+    font-size: 21px;
+    font-weight: 900;
+  }
+  
+
+
+  img{
+    width: 1200px;
+    height: 525px;
+    border-radius: 18px;
+  }
+
+  .a {
+    width: 150px;
+    height: 106px;
+    background-color: #FFE3E9; 
+    transform: rotate(-20deg);
+    border-radius: 8px;
+    position: relative;
+    overflow:hidden;
+    transition: background-color 2s;
+  }
+
+
+.a:hover {
+  width: 150px;
+  height: 106px;
+  background-color: #E3F4FF;
+}
