@@ -112,12 +112,20 @@ ul{
 	
 }
 
-#home {
-	background: url('Gender_equality_symbol_(clipart).png') no-repeat -357px -119px;
-  margin: auto;
-	width: 156px;
-	height: 216px;
-}
+
+
+
+.sprite {
+  background: url('sucrose.jpg') no-repeat 0 0;
+  width: 97px;
+  height: 124px;
+  animation: varName 1s steps(4) infinite;
+  }
+  @keyframes varName{
+  from{background-position:-15 -24;}
+  to{background-position:-431 -31;}
+  }
+
 
 
 
