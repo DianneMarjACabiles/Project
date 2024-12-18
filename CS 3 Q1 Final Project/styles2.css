@@ -2,8 +2,10 @@ body{
   padding: 25px;
   background-color:white;
   color: black;
-  
+  background-image: url("namecard1.jpg");
+
 }
+
 
 .title { 
 text-align: left;  
@@ -44,3 +46,4 @@ img{
   margin-right: auto;
 
 }
+
