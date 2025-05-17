@@ -63,18 +63,19 @@ function resetQuestion() {
 function selectAnswer(button, correctAnswer) {
     const selectedAnswer = button.innerHTML;
     if (selectedAnswer === correctAnswer) {
-        button.className += "correct";  
+        button.classList.add("correct");
         score++;
     } else {
-        button.className += " wrong";  
+        button.classList.add("wrong");
     }
-    
+
     for (let i = 0; i < answerButtons.children.length; i++) {
-        answerButtons.children[i].disabled = true; 
+        answerButtons.children[i].disabled = true;
     }
-    
-    nextButton.style.display = "block"; 
+
+    nextButton.style.display = "block";
 }
+
 
 nextButton.onclick = function() {
     currentQuestionIndex++;
