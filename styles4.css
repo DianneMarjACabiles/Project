@@ -1,0 +1,45 @@
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  
+}
+
+.title { 
+  text-align: left;  
+  font-family: "Franklin Gothic", sans-serif;
+  text-transform: uppercase;
+  color: #3D6A9F;
+}
+
+.smalldesc { 
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+  background-color: #E3F4FF;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.desc { 
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+li {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-style: bold;
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+img {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
