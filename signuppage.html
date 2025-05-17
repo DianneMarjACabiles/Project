@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HeForShe - Signup</title>
+    <link rel="stylesheet" href="stylesignup.css">
+    <script defer src="scriptsignup.js"></script>
+</head>
+<body>
+    <header>
+        <h1>HeForShe <img src="logo.png" alt="HeForShe logo" class="logo"></h1>
+    </header>
+    <section class="description">
+        <p>HeForShe asks men and people of all genders to stand with women for gender equality. The men involved aren’t just watching—they’re working with women and each other to build fairer workplaces, families, and communities.</p>
+    </section>
+
+    <section class="form-container">
+        <form id="signupForm">
+            <label>First Name * <input type="text" id="firstName"></label><span class="error" id="errFirstName"></span><br>
+            <label>Last Name * <input type="text" id="lastName"></label><span class="error" id="errLastName"></span><br>
+            <label>Sex *<br>
+                <input type="radio" name="sex" value="Male"> Male
+                <input type="radio" name="sex" value="Female"> Female
+                <input type="radio" name="sex" value="Prefer not to say"> Prefer not to say
+            </label><span class="error" id="errSex"></span><br>
+            <label>Email Address * <input type="email" id="email"></label><span class="error" id="errEmail"></span><br>
+            <label>Password * <input type="password" id="password"></label><span class="error" id="errPassword"></span><br>
+            <label>Contact Number <input type="text" id="contact"></label><br>
+            <label>Why you are supporting our campaign *<br>
+                <textarea id="reason"></textarea>
+            </label><span class="error" id="errReason"></span><br>
+            <button type="submit">Join the Movement</button>
+        </form>
+    </section>
+</body>
+</html>

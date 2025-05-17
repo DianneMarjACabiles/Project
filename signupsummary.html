@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HeForShe - Profile</title>
+    <link rel="stylesheet" href="stylesignup.css">
+</head>
+<body>
+    <header>
+        <h1>HeForShe <img src="logo.png" alt="HeForShe logo" class="logo"></h1>
+    </header>
+    <section class="profile">
+        <h2>Welcome, <span id="fullName"></span>!</h2>
+        <p><strong>Email:</strong> <span id="emailDisplay"></span></p>
+        <p><strong>Sex:</strong> <span id="sexDisplay"></span></p>
+        <p><strong>Why I support this campaign:</strong></p>
+        <p id="reasonDisplay"></p>
+    </section>
+
+    <script>
+        const first = localStorage.getItem("firstName");
+        const last = localStorage.getItem("lastName");
+        const email = localStorage.getItem("email");
+        const sex = localStorage.getItem("sex");
+        const reason = localStorage.getItem("reason");
+
+        document.getElementById("fullName").textContent = first + " " + last;
+        document.getElementById("emailDisplay").textContent = email;
+        document.getElementById("sexDisplay").textContent = sex;
+        document.getElementById("reasonDisplay").textContent = reason;
+    </script>
+</body>
+</html>
