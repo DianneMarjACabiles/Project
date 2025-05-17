@@ -25,8 +25,16 @@ a:hover {
   padding: 16px 32px;
 }
 
-
+.dot{
+  color: black; 
+font-family: Franklin Gothic;
 }
+
+.footer{
+  color: black; 
+font-family: Franklin Gothic;
+}
+
 
 img{
   float: left;
@@ -114,21 +122,20 @@ ul{
 
 
 
-
 .sprite {
-  background: url('sucrose.jpg') no-repeat 0 0;
-  width: 97px;
-  height: 124px;
-  animation: varName 1s steps(4) infinite;
+  background: url('sucrose.jpg') no-repeat;
+  width: 330px; 
+  height: 353px; 
+  background-size: 660px 353px; 
+  animation: varName 1s steps(2) infinite;
+}
+
+@keyframes varName {
+  from {
+    background-position: 0 0;
   }
-  @keyframes varName{
-  from{background-position:-15 -24;}
-  to{background-position:-431 -31;}
+  to {
+    background-position: -660px 0;
   }
+}
 
-
-
-
-	
-  
-  
